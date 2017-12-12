@@ -1,0 +1,7 @@
+CREATE DATABASE `test` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+CREATE TABLE `TestSync` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `description` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
